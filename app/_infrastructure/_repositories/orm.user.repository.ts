@@ -2,6 +2,9 @@ import { UserInterface } from "@/app/_domain/_interface/user.interface";
 import { userDTO } from "../_dto/user.dto";
 import { cookies } from "next/headers";
 
+//This is where you would have your ORM Logic and Methods, for now I have used cookies as an example.
+
+
 export class ORMUserRepository implements UserInterface {
 
     async createUser(user: userDTO): Promise<userDTO>{

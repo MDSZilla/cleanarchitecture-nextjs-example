@@ -1,6 +1,8 @@
 import { User } from "@/app/_domain/_entities/user.entity";
 import { UserRole } from "@/app/_domain/_enums/userrole.enum";
 
+//A DTO acts as a Middle Layer in Clean Architecture allowing us to Map from Higher Levels to Lower Levels without direct coupling.
+
 export class userDTO {
     id: string;
     username: string;

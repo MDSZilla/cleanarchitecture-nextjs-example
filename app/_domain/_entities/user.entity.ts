@@ -2,6 +2,7 @@ import { userDTO } from "@/app/_infrastructure/_dto/user.dto";
 import { UserRole } from "../_enums/userrole.enum";
 import { UserInterface } from "../_interface/user.interface";
 
+//Entities are your CORE business classes, that are mandatory for your application.
 
 export class User {
 
