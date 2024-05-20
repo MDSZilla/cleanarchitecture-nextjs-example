@@ -1,5 +1,5 @@
 import { User } from "@/app/_domain/_entities/user.entity";
-import { UserRole } from "@/app/_domain/_enums/UserRole";
+import { UserRole } from "@/app/_domain/_enums/userrole.enum";
 import { UserInterface } from "@/app/_domain/_interface/user.interface";
 import { ORMUserRepository } from "@/app/_infrastructure/_repositories/orm.user.repository";
 

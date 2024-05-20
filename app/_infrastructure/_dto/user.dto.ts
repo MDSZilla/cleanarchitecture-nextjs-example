@@ -1,5 +1,5 @@
 import { User } from "@/app/_domain/_entities/user.entity";
-import { UserRole } from "@/app/_domain/_enums/UserRole";
+import { UserRole } from "@/app/_domain/_enums/userrole.enum";
 
 export class userDTO {
     id: string;
